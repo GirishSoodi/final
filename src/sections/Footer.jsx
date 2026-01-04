@@ -49,15 +49,15 @@ export default function Footer() {
             },
             {
               icon: <FiLinkedin />,
-              link: "https://linkedin.com/in/yourusername",
+              link: "http://www.linkedin.com/in/girish-soodi-310b1b311 ",
             },
             {
               icon: <FiGithub />,
-              link: "https://github.com/yourusername",
+              link: "https://github.com/GirishSoodi",
             },
             {
               icon: <FiMail />,
-              link: "mailto:yourmail@gmail.com",
+              link: "mailto:soodisoumya@gmail.com",
             },
           ].map((item, i) => (
             <motion.a
