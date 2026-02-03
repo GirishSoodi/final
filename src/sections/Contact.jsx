@@ -217,7 +217,7 @@ export default function Contact() {
       </motion.a>
 
       <motion.a
-        href="mailto:soodisoumya@gmail.com"
+        href="mailto : soodisoumya@gmail.com"
         drag
         dragConstraints={constraintsRef}
         className="absolute z-10 top-1/2 right-10 w-14 h-14 rounded-full
