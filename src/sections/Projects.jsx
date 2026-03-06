@@ -6,7 +6,7 @@ import {
   useScroll,
 } from "framer-motion";
 
-import img1 from "../assets/img1.JPG";
+import img1 from "../assets/ChatGPT Image Mar 6, 2026, 12_49_46 PM.png";
 import img2 from "../assets/img2.JPG";
 import img3 from "../assets/img3.JPG";
 
