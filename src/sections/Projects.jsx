@@ -39,18 +39,18 @@ export default function Projects() {
   const projects = useMemo(
     () => [
       {
-        title: "NK Studio",
-        bgcolor: "#0d4d3d",
+        title: "DeepFake",
+        bgcolor: "#F5F7FA",
         image: isMobile ? photo1 : img1,
       },
       {
-        title: "Gamily",
-        bgcolor: "#3884d3",
+        title: "Intelligent Traffic",
+        bgcolor: "#F3F4F6",
         image: isMobile ? photo2 : img2,
       },
       {
-        title: "Hungry Tiger",
-        bgcolor: "#dc9317",
+        title: "Minute Mate",
+        bgcolor: "#0F172A",
         image: isMobile ? photo3 : img3,
       },
     ],
