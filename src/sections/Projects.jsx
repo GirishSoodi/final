@@ -40,7 +40,7 @@ export default function Projects() {
     () => [
       {
         title: "DeepFake",
-        bgcolor: "#F5F7FA",
+        bgcolor: "#6A0DAD",
         image: isMobile ? photo1 : img1,
       },
       {
