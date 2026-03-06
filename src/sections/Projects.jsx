@@ -7,8 +7,8 @@ import {
 } from "framer-motion";
 
 import img1 from "../assets/ChatGPT Image Mar 6, 2026, 12_49_46 PM.png";
-import img2 from "../assets/img2.JPG";
-import img3 from "../assets/img3.JPG";
+import img2 from "../assets/Screenshot 2026-03-06 125521.png";
+import img3 from "../assets/Screenshot 2026-03-06 123508.png";
 
 import photo1 from "../assets/photo1.JPG";
 import photo2 from "../assets/photo2.PNG";
