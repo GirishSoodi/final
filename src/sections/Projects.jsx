@@ -45,7 +45,7 @@ export default function Projects() {
       },
       {
         title: "Intelligent Traffic",
-        bgcolor: "#A8D5A2",
+        bgcolor: "#50C878",
         image: isMobile ? photo2 : img2,
       },
       {
