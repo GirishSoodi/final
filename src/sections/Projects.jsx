@@ -41,17 +41,17 @@ export default function Projects() {
       {
         title: "DeepFake",
         bgcolor: "#6A0DAD",
-        image: isMobile ? photo1 : img1,
+        image: isMobile ? img1 : img1,
       },
       {
         title: "Intelligent Traffic",
         bgcolor: "#50C878",
-        image: isMobile ? photo2 : img2,
+        image: isMobile ? img2 : img2,
       },
       {
         title: "Minute Mate",
         bgcolor: "#0F172A",
-        image: isMobile ? photo3 : img3,
+        image: isMobile ? img3 : img3,
       },
     ],
     [isMobile]
