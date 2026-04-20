@@ -6,12 +6,13 @@ import {
   useScroll,
 } from "framer-motion";
 
+// Desktop images
 import img1 from "../assets/Screenshot 2026-04-17 201219.png";
 import img2 from "../assets/Screenshot 2026-03-06 125521.png";
 import img3 from "../assets/Screenshot 2026-04-17 204050.png";
 
-import photo1 from "../assets/photo1.JPG";
-import photo2 from "../assets/Screenshot 2026-04-20 130416.png ";
+// Mobile images
+import photo2 from "../assets/Screenshot 2026-04-20 130416.png";
 import photo3 from "../assets/Screenshot 2026-04-20 131818.png";
 
 /* ---------- Mobile Detection ---------- */
@@ -38,25 +39,25 @@ export default function Projects() {
 
   const projects = useMemo(
     () => [
-    {
-      title: "Intelligent Traffic",
-      bgcolor: "#50C878",
-      image: img2,
-      link: "https://github.com/GirishSoodi/traffic", // add your link if needed
-    },
-    {
-      title: "AI Resume Builder",
-      bgcolor: "#16a34a",
-      image: isMobile ? photo2 : img1,
-      link: "https://resume-builder-frontend-bqa9.onrender.com",
-    },
-    {
-      title: "E-Commerce Store",
-      bgcolor: "#f97316",
-      image: isMoblie ? photo3 : img3,
-      link: "https://ecommerce-frontend-qb0s.onrender.com",
-    },
-  ],
+      {
+        title: "Intelligent Traffic",
+        bgcolor: "#50C878",
+        image: img2,
+        link: "https://github.com/GirishSoodi/traffic",
+      },
+      {
+        title: "AI Resume Builder",
+        bgcolor: "#16a34a",
+        image: isMobile ? photo2 : img1,
+        link: "https://resume-builder-frontend-bqa9.onrender.com",
+      },
+      {
+        title: "E-Commerce Store",
+        bgcolor: "#f97316",
+        image: isMobile ? photo3 : img3, // ✅ fixed typo
+        link: "https://ecommerce-frontend-qb0s.onrender.com",
+      },
+    ],
     [isMobile]
   );
 
@@ -111,16 +112,20 @@ export default function Projects() {
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: 30 }}
                     transition={{ duration: 0.5, ease: "easeOut" }}
-                    className={`text-center text-[clamp(2rem,6vw,5rem)] italic font-semibold mb-6`}
+                    className="text-center text-[clamp(2rem,6vw,5rem)] italic font-semibold mb-6"
                   >
                     {project.title}
                   </motion.h3>
                 )}
               </AnimatePresence>
 
-              <div
-                className={`relative w-full overflow-hidden bg-black/20 shadow-2xl rounded-xl
-                h-[62vh] sm:h-[66vh]`}
+              {/* 🔥 Clickable Image */}
+              <a
+                href={project.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block relative w-full overflow-hidden bg-black/20 shadow-2xl rounded-xl
+                h-[62vh] sm:h-[66vh] transform hover:scale-105 transition duration-300"
               >
                 <img
                   src={project.image}
@@ -132,7 +137,7 @@ export default function Projects() {
                       "drop-shadow(0 16px 40px rgba(0,0,0,0.65))",
                   }}
                 />
-              </div>
+              </a>
             </div>
           ))}
         </div>
