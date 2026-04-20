@@ -50,7 +50,7 @@ export default function Contact() {
         </p>
 
         <motion.a
-          href="https://instagram.com/yourusername"
+          href="http://www.linkedin.com/in/girish-soodi-310b1b311"
           target="_blank"
           rel="noopener noreferrer"
           whileHover={{ scale: 1.08 }}
@@ -59,7 +59,7 @@ export default function Contact() {
           bg-gradient-to-r from-[#1cd8d2] via-[#00bf8f] to-[#302b63]
           text-black font-semibold shadow-2xl"
         >
-          Connect on Instagram
+          Connect on Linkedin
         </motion.a>
       </motion.div>
 
