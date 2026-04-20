@@ -38,22 +38,25 @@ export default function Projects() {
 
   const projects = useMemo(
     () => [
-      {
-        title: "DeepFake",
-        bgcolor: "#6A0DAD",
-        image: isMobile ? img1 : img1,
-      },
-      {
-        title: "Intelligent Traffic",
-        bgcolor: "#50C878",
-        image: isMobile ? img2 : img2,
-      },
-      {
-        title: "Minute Mate",
-        bgcolor: "#0F172A",
-        image: isMobile ? img3 : img3,
-      },
-    ],
+    {
+      title: "Intelligent Traffic",
+      bgcolor: "#50C878",
+      image: img2,
+      link: "https://github.com/GirishSoodi/traffic", // add your link if needed
+    },
+    {
+      title: "AI Resume Builder",
+      bgcolor: "#16a34a",
+      image: isMobile ? img : res2,
+      link: "https://resume-builder-frontend-bqa9.onrender.com",
+    },
+    {
+      title: "E-Commerce Store",
+      bgcolor: "#f97316",
+      image: isMoblie ? ecom : ecom2,
+      link: "https://ecommerce-frontend-qb0s.onrender.com",
+    },
+  ],
     [isMobile]
   );
 
