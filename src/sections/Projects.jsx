@@ -7,7 +7,7 @@ import {
 } from "framer-motion";
 
 // Desktop images
-import img1 from "../assets/Screenshot 2026-04-17 201219.png";
+import img1 from "../assets/Screenshot 2026-04-17 204150.png";
 import img2 from "../assets/Screenshot 2026-03-06 125521.png";
 import img3 from "../assets/Screenshot 2026-04-17 204050.png";
 
