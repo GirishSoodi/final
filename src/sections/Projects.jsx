@@ -55,7 +55,7 @@ export default function Projects() {
         title: "E-Commerce Store",
         bgcolor: "#f97316",
         image: isMobile ? photo3 : img3, // ✅ fixed typo
-        link: "https://ecommerce-frontend-qb0s.onrender.com",
+        link: "https://ecommerece-frontend-qb0s.onrender.com/",
       },
     ],
     [isMobile]
