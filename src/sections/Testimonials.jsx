@@ -34,7 +34,7 @@ const playlists = [
 export default function vibes() {
   return (
     <section
-      id="testimonials"
+      id="vibes"
       className="relative min-h-screen bg-black text-white overflow-hidden px-6 py-32"
     >
       {/* Title */}
