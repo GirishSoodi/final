@@ -31,7 +31,7 @@ const playlists = [
   },
 ];
 
-export default function Testimonials() {
+export default function vibes() {
   return (
     <section
       id="testimonials"
