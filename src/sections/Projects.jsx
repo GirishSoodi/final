@@ -6,13 +6,13 @@ import {
   useScroll,
 } from "framer-motion";
 
-import img1 from "../assets/ChatGPT Image Mar 6, 2026, 02_36_26 PM.png";
+import img1 from "../assets/Screenshot 2026-04-17 201219.png";
 import img2 from "../assets/Screenshot 2026-03-06 125521.png";
-import img3 from "../assets/Screenshot 2026-03-06 123508.png";
+import img3 from "../assets/Screenshot 2026-04-17 204050.png";
 
 import photo1 from "../assets/photo1.JPG";
-import photo2 from "../assets/photo2.PNG";
-import photo3 from "../assets/photo3.png";
+import photo2 from "../assets/Screenshot 2026-04-20 130416.png ";
+import photo3 from "../assets/Screenshot 2026-04-20 131818.png";
 
 /* ---------- Mobile Detection ---------- */
 const useIsMobile = (query = "(max-width: 638px)") => {
@@ -47,13 +47,13 @@ export default function Projects() {
     {
       title: "AI Resume Builder",
       bgcolor: "#16a34a",
-      image: isMobile ? img : res2,
+      image: isMobile ? photo2 : img1,
       link: "https://resume-builder-frontend-bqa9.onrender.com",
     },
     {
       title: "E-Commerce Store",
       bgcolor: "#f97316",
-      image: isMoblie ? ecom : ecom2,
+      image: isMoblie ? photo3 : img3,
       link: "https://ecommerce-frontend-qb0s.onrender.com",
     },
   ],
